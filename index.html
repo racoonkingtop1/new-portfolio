@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__container">
+    <div class="header__nav">
+      <a href="#" class="header__link header__link--active">
+        <svg width="30" height="30">
+          <use xlink:href="./img/sprite.svg#icon__home"></use>
+        </svg>
+      </a>
+      <a href="#" class="header__link">
+        <svg width="30" height="30">
+          <use xlink:href="./img/sprite.svg#icon__about"></use>
+        </svg>
+      </a>
+      <a href="#" class="header__link">
+        <svg width="30" height="30">
+          <use xlink:href="./img/sprite.svg#icon__portfolio"></use>
+        </svg>
+      </a>
+    </div>
+    <button class="header__expand">
+      <svg width="30" height="30">
+        <use xlink:href="./img/sprite.svg#icon__expand"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="header__texts">
+    <p class="header__text header__text--active">домой<button class="header__link--full"></button></p>
+    <p class="header__text">Обо мне<button class="header__link--full"></button></p>
+    <p class="header__text">Портфолио<button class="header__link--full"></button></p>
+  </div>
+</header>
+
+    <div class="site__content">
+      <main class="main">
+        <section class="top-block section closedPage">
+    <div class="top-block__container container">
+        <div class="top-block__content">
+            <h1>
+                <span>Меня зовут</span>
+                <span>Павел Полищук</span>
+                <span>и я</span>
+                <span>верстальщик</span>
+            </h1>
+            <div class="top-block__my-images">
+                <img src="./img/image__no-bucket.webp" alt="моё фото без ведра" class="top-block__my-image">
+                <img src="./img/image__bucket.webp" alt="моё фото с ведром" class="top-block__my-image">
+            </div>
+        </div>
+    </div>
+</section>
+        <div class="about section dnone">
+    <div class="about__container container">
+        <section class="about__gallery gallery block">
+            <h2>Это <span class="green">я</span></h2>
+            <div class="swiper gallery-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper gallery__wrapper">
+                    <!-- Slides -->
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="gallery-swiper__btns">
+                    <div class="gallery__prev">
+                        <svg width="24" height="24" style="rotate:180deg;">
+                            <use xlink:href="./img/sprite.svg#icon__arrow"></use>
+                        </svg>
+                    </div>
+                    <div class="gallery__next">
+                        <svg width="24" height="24">
+                            <use xlink:href="./img/sprite.svg#icon__arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-pagination__container">
+                <div class="swiper-pagination gallery__pagination"></div>
+            </div>
+        </section>
+        <section class="about__facts facts block">
+            <h2>Немного <span class="green">обо мне</span></h2>
+            <div class="facts__content">
+                <div class="facts__main">
+                    <p class="my-description">
+                        Меня зовут <span class="green">Павел</span>. Я увлекаюсь вёрсткой с осени 2022 года. Тогда я начал прооодить первые в своей жизни <span class="green">курсы разработчика</span>. Там я получил базовые знания по фуллстак-разработке, а впоследствии увлёкся вёрсткой. С лета 2023 года я постепенно искал клиентов на фриланс-биржах, и <span class="green">в течение года</span> поучаствовал в создании множества разных проектов, включая <span class="green">несколько коммерческих</span>. Конечно, кому-то покажется, что я ничем не выделяюсь среди других верстальщиков, ведь то, чем я занимаюсь, умеют делать многие. Однако, мои <span class="green">потенциал и быстрое самообучение</span> однозначно могут быть вам на руку.
+                    </p>
+                    <div class="facts__stack">
+                        <span class="HTML-tag">HTML</span>
+                        <span class="CSS-tag">CSS</span>
+                        <span class="SCSS-tag">SCSS</span>
+                        <span class="JavaScript-tag">JavaScript</span>
+                        <span class="GULP-tag">GULP</span>
+                        <span class="MaxGraph-tag">MaxGraph</span>
+                        <span class="Figma-tag">Figma</span>
+                        <span class="Photoshop-tag">Photoshop</span>
+                        <span class="github-tag">git + github</span>
+                    </div>
+                </div>
+                <div class="facts__cards">
+                    <div class="facts__card facts-card box-shadow1">
+                        <div class="facts-card__svg">
+                            <svg width="25" height="25">
+                                <use xlink:href="./img/sprite.svg#icon__experience"></use>
+                            </svg>
+                        </div>
+                        <p class="facts-card__param manrope">Опыт работы</p>
+                        <p class="facts-card__num">2</p>
+                        <p class="facts-card__content">года</p>
+                    </div>
+                    <div class="facts__card facts-card box-shadow1">
+                        <div class="facts-card__svg">
+                            <svg width="25" height="25">
+                                <use xlink:href="./img/sprite.svg#icon__portfolio"></use>
+                            </svg>
+                        </div>
+                        <p class="facts-card__param manrope">Коммерческих</p>
+                        <p class="facts-card__num">7</p>
+                        <p class="facts-card__content">проектов</p>
+                    </div>
+                    <div class="facts__card facts-card box-shadow1">
+                        <div class="facts-card__svg">
+                            <svg width="25" height="25">
+                                <use xlink:href="./img/sprite.svg#icon__rub"></use>
+                            </svg>
+                        </div>
+                        <p class="facts-card__param manrope">Ставка от</p>
+                        <p class="facts-card__num">400</p>
+                        <p class="facts-card__content">рублей в час</p>
+                    </div>
+                    <div class="facts__card facts-card box-shadow1">
+                        <div class="facts-card__svg">
+                            <svg width="25" height="25">
+                                <use xlink:href="./img/sprite.svg#icon__check"></use>
+                            </svg>
+                        </div>
+                        <p class="facts-card__param manrope">На связи</p>
+                        <p class="facts-card__num">24</p>
+                        <p class="facts-card__content">на семь</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about__reviews reviews block">
+            <h2>немного <span class="green">отзывов</span></h2>
+            <div class="reviews__container">
+                <div class="reviews__review review box-shadow1">
+                    <div class="review__author-info">
+                        <div class="review__avatar">
+                            <svg width="25" height="25">
+                                <use xlink:href="./img/sprite.svg#icon__avatar"></use>
+                            </svg>
+                        </div>
+                        <div class="review__author">
+                            <p>Никита</p>
+                            <p>Клиент с 2024 г. (Telegram)</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        «Спасибо, всё ок, выглядит неплохо, сссылки рабочие. Начальник доволен, работу вчера приняли &#128077»
+                    </p>
+                </div>
+                <div class="reviews__review review box-shadow1">
+                    <div class="review__author-info">
+                        <div class="review__avatar">
+                            <svg width="25" height="25">
+                                <use xlink:href="./img/sprite.svg#icon__avatar"></use>
+                            </svg>
+                        </div>
+                        <div class="review__author">
+                            <p>Пётр</p>
+                            <p>Клиент с 2023 г. (Kwork)</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        «Быстро и качественно — рекомендую!»
+                    </p>
+                </div>
+                <div class="reviews__review review box-shadow1">
+                    <div class="review__author-info">
+                        <div class="review__avatar">
+                            <svg width="25" height="25">
+                                <use xlink:href="./img/sprite.svg#icon__avatar"></use>
+                            </svg>
+                        </div>
+                        <div class="review__author">
+                            <p>Мишель</p>
+                            <p>Клиент с 2024 г. (Kwork)</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        «Спасибо большое, справился быстро, не дорого и быстро, рекомендую, я так же обращусь ещё, благодарю»
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="about__socials socials block">
+            <h2>будем <span class="green">знакомы</span>?</h2>
+            <div class="socials__container">
+                <a href="https://t.me/racoowho" class="socials__tg socials__link" target="_blank">
+                    <svg width="30" height="30">
+                        <use xlink:href="./img/sprite.svg#socials__tg"></use>
+                    </svg>
+                </a>
+                <a href="https://wa.me/89655459337" class="socials__wa socials__link" target="_blank">
+                    <svg width="30" height="30">
+                        <use xlink:href="./img/sprite.svg#socials__wa"></use>
+                    </svg>
+                </a>
+                <a href="https://vk.com/loveracoonking" class="socials__vk socials__link" target="_blank">
+                    <svg width="30" height="30">
+                        <use xlink:href="./img/sprite.svg#socials__vk"></use>
+                    </svg>
+                </a>
+                <a href="mailto:pavluxa_2005@mmail.ru" class="socials__mail socials__link" target="_blank">
+                    <svg width="30" height="30">
+                        <use xlink:href="./img/sprite.svg#icon__mail"></use>
+                    </svg>
+                </a>
+                <a href="https://github.com/racoonkingtop1" class="socials__gh socials__link" target="_blank">
+                    <svg width="30" height="30">
+                        <use xlink:href="./img/sprite.svg#socials__gh2"></use>
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </div>
+</div>
+        <section class="portfolio section dnone">
+    <div class="portfolio__container container">
+        <div class="block">
+            <h2>моё <span class="green">портфолио</span></h2>
+            <div class="portfolio__content">
+                <!-- If we need navigation buttons -->
+                <div class="portfolio__swiper-btns">
+                    <div class="portfolio__prev box-shadow--green">
+                        <svg width="20" height="20" style="rotate:180deg;">
+                            <use xlink:href="./img/sprite.svg#icon__arrow"></use>
+                        </svg>
+                    </div>
+                    <div class="portfolio__next box-shadow--green">
+                        <svg width="20" height="20">
+                            <use xlink:href="./img/sprite.svg#icon__arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio__project">
+                    <div class="portfolio__info">
+                        <div class="portfolio__descriptions project">
+                            <div class="project__info project__name">
+                                <h3>название:</h3>
+                                <p class="project__name--cont">Лендинг «Зелёная долина»</p>
+                            </div>
+                            <div class="project__info project__year">
+                                <h3>год создания:</h3>
+                                <p class="project__year--cont">2024</p>
+                            </div>
+                            <div class="project__info project__technologies">
+                                <h3>технологии:</h3>
+                                <div class="technologies__list project__technologies--cont">
+
+                                </div>
+                            </div>
+                            <div class="project__info project__description">
+                                <h3>описание:</h3>
+                                <p class="project__description--cont">Адаптивный лендинг для застройщика. Сделать в течение суток после получения ТЗ. Клиентом полностью одобрен.</p>
+                            </div>
+                            <div class="project__info project__link"></div>
+                        </div>
+                    </div>
+                    <div class="swiper portfolio__swiper box-shadow--green">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper portfolio__wrapper">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+      </main>
+      <footer class="footer">
+  <div class="container"></div>
+</footer>
+
+    </div>
+  </div>
+</body>
+
+</html>
