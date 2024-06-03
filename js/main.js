@@ -10437,7 +10437,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
     let galleryImg = galleryImages[galImg];
     galleryWrapper.innerHTML += `
         <div class="swiper-slide gallery__slide">
-            <img src="./img/${galleryImg}.webp" alt="моё фото">
+            <img src="./img/${galleryImg}.webp" alt="моё фото" loading="lazy">
         </div>
         `;
   }
@@ -10692,7 +10692,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
     let portfolioImage = portfolioProjects[portImg].image;
     portfolioImagesContainer.innerHTML += `
             <div class="swiper-slide portfolio__slide" data-swiper-id="${portImg}">
-                <img class="portfolio__image" src="./img/${portfolioImage}.webp" alt="картинка проекта">
+                <img class="portfolio__image" src="./img/${portfolioImage}.webp" alt="картинка проекта" loading="lazy">
             </div>
         `;
   }
