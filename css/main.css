@@ -679,6 +679,11 @@ h1 span:nth-child(4) {
     justify-content: space-evenly;
   }
 }
+@media (max-width: 576px) {
+  h1 span:nth-child(2) {
+    font-size: 36px;
+  }
+}
 .facts__content {
   display: -webkit-box;
   display: -ms-flexbox;
