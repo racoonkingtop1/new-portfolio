@@ -129,7 +129,7 @@ main {
 .site__content {
   padding: 0;
   margin: 0;
-  width: calc(100% - 60px);
+  width: calc(100vh - 60px);
   background-color: var(--white);
 }
 
@@ -601,7 +601,7 @@ h1 span:nth-child(2) {
 }
 h1 span:nth-child(3) {
   text-align: center;
-  font-size: clamp(0.75rem, 1.7857142857vw + -0.1071428571rem, 1.5rem);
+  font-size: clamp(1.125rem, 2.6785714286vw + -0.1607142857rem, 2.25rem);
   font-family: var(--inter);
   margin-left: 50%;
   font-weight: 400;
