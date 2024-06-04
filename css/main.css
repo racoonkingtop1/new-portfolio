@@ -129,7 +129,7 @@ main {
 .site__content {
   padding: 0;
   margin: 0;
-  width: calc(100vh - 60px);
+  width: calc(100vw - 60px);
   background-color: var(--white);
 }
 
@@ -343,7 +343,7 @@ h2 {
 @media (max-width: 576px) {
   .site__content {
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(100vh - 60px);
   }
   .section {
     padding: 15px 15px;
